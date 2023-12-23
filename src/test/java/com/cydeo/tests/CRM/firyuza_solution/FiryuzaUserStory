@@ -1,0 +1,50 @@
+US: As a user, I should be able to logout.
+
+AC 1. User should be able to see 5 options under the profile name.
+
+AC 2. User should be able to log out from the app after clicking the “Log Out” button.
+
+AC 3. Users must be logged out if they are away from the keyboard for 3 minutes (AFK-away from the keyboard)
+(If the user does not do any mouse or keyboard action for 3 minutes)
+
+
+AC_1 Steps:
+Step #1:
+User go to the login page.
+Login Page URL: https://qa.bleucrm.com/stream/
+As a User I should be able to see login page once I click on the URL.
+
+Step#2:
+User enter login and password in the fields and click login button to login to the web page
+Login: hr1@cybertekschool.com
+Password: UserUser
+User should be able to login and have access to the profile.
+
+Step#3:
+User on the top right corner of the page click on the drop down arrow next to your profile name.
+User should be able to see 5 options after clicking the drop down arrow next to profile name
+
+
+AC_2 Steps:
+
+Step#1:
+User should go to login page
+URL page: https://qa.bleucrm.com/
+After clicking on the URL i should be able to see login page
+
+Step#2:
+Action: User should enter login and Password in the fields and click on the login button, in order to login to the profile
+Login: hr1@cybertekschool.com
+Password: UserUser
+Expected:After User logged-in to the page, user have access to profile page.
+
+Step#3:
+Action:User should click on the drop down arrow next to her profile name.
+Expected: After clicking the drop down arrow, user should be able to see 5 options.
+
+Step#4:
+Action:User should click on the last option of the drop down list, which is "Log out", in order to log out from the page
+Expected:Once user clicked on the last option of the list, which is "Log out", use should be able to logged out from page and return back to login page
+
+
+
