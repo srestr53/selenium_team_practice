@@ -5,20 +5,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CRMLoginPage {
+import java.util.List;
 
-    public CRMLoginPage() {
+public class CRM_Home_Page {
+
+    public CRM_Home_Page() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
+    @FindBy(id = "user-block")
+    public WebElement dropdown;
 
-    @FindBy (name = "USER_LOGIN")
-    public WebElement username;
-    @FindBy (name = "USER_PASSWORD")
-    public WebElement password;
+    @FindBy(xpath = "//span[@class='menu-popup-item-text']")
+    public List<WebElement> dropdownList;
 
-    @FindBy(css = "input.login-btn")
-    public WebElement loginButton;
+
 
 
 }
